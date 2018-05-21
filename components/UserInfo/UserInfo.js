@@ -4,8 +4,17 @@ import {Text, View, Image} from 'react-native';
 
 import UserList from '../UserList/UsersList';
 import userInfoStyles from './userInfo.styles';
+import userShape from '../../shapes/user';
 
 export default class UserInfo extends Component {
+	static propTypes = {
+		user: userShape,
+		info: PropTypes.shape({
+			followers: PropTypes.arrayOf(userShape)
+		}),
+		fetchUserFollowers: PropTypes.func.isRequired
+	};
+
 	render() {
 		const {user, info, fetchUserFollowers} = this.props;
 

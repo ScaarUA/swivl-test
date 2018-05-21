@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Text, View} from 'react-native';
 
 import tableStyles from './table.styles';
@@ -26,3 +27,7 @@ export const TableHeading = ({text}) => (
 		<Text style={tableStyles.tableHeading}>{text}</Text>
 	</View>
 );
+
+TableHeading.propTypes = {
+	text: PropTypes.string.isRequired
+};

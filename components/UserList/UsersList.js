@@ -8,11 +8,7 @@ import UserRow from './UserRow/UserRow';
 export default class UsersList extends PureComponent {
 	static propTypes = {
 		users: PropTypes.array.isRequired,
-		fetchUsers: PropTypes.func
-	};
-
-	static defaultProps = {
-		fetchUsers: () => {}
+		fetchUsers: PropTypes.func.isRequired
 	};
 
 	_keyExtractor = item => item.id;

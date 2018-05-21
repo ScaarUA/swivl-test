@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87abb016-904d-492a-b70d-1d6565e4521c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/setupTests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/swivl-test.iml" afterPath="$PROJECT_DIR$/.idea/swivl-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.test.js" afterPath="$PROJECT_DIR$/App.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/Table/Table.js" afterPath="$PROJECT_DIR$/components/Table/Table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/UserInfo/UserInfo.js" afterPath="$PROJECT_DIR$/components/UserInfo/UserInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/UserList/UsersList.js" afterPath="$PROJECT_DIR$/components/UserList/UsersList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js" afterPath="$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.js" afterPath="$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js" afterPath="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,12 +24,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="UsersList.actions.test.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.test.js">
+          <file leaf-file-name="UserInfo.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/UserInfo/UserInfo.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
-                  <folding />
+                <state relative-caret-position="238">
+                  <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -42,8 +39,8 @@
           <file leaf-file-name="UsersList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/components/UserList/UsersList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+                <state relative-caret-position="35">
+                  <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -59,24 +56,46 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
+          <file leaf-file-name="Preloader.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Preloader/Preloader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+                <state relative-caret-position="68">
+                  <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="setupTests.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/setupTests.js">
+          <file leaf-file-name="Table.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Table/Table.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+                <state relative-caret-position="527">
+                  <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
                   <folding>
-                    <element signature="e#0#33#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UsersListContainer.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -84,8 +103,30 @@
           <file leaf-file-name="UserInfoContainer.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                <state relative-caret-position="-353">
+                  <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserInfo.actions.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.actions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -137,7 +178,6 @@
         <option value="$PROJECT_DIR$/components/Table/TableRow.js" />
         <option value="$PROJECT_DIR$/components/Table/TableCell.js" />
         <option value="$PROJECT_DIR$/screens/UsersListScreen/index.js" />
-        <option value="$PROJECT_DIR$/components/Table/Table.js" />
         <option value="$PROJECT_DIR$/components/Table/table.styles.js" />
         <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersList.js" />
         <option value="$PROJECT_DIR$/shapes/user.js" />
@@ -146,7 +186,6 @@
         <option value="$PROJECT_DIR$/screens/UserInfo/UserInfo.actions.js" />
         <option value="$PROJECT_DIR$/screens/UserInfo/userInfo.styles.js" />
         <option value="$PROJECT_DIR$/screens/UserInfo/UserInfo.js" />
-        <option value="$PROJECT_DIR$/components/UserList/UsersList.js" />
         <option value="$PROJECT_DIR$/components/UserList/UserRow/UserRow.js" />
         <option value="$PROJECT_DIR$/screens/UserInfo/index.js" />
         <option value="$PROJECT_DIR$/screens/UserInfo/UserInfoContainer.js" />
@@ -155,18 +194,21 @@
         <option value="$PROJECT_DIR$/screens/UserInfoScreen/index.js" />
         <option value="$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.reducer.js" />
         <option value="$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.actions.js" />
-        <option value="$PROJECT_DIR$/components/UserInfo/UserInfo.js" />
         <option value="$PROJECT_DIR$/components/Preloader/Preloader.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/App.test.js" />
-        <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js" />
-        <option value="$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js" />
         <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.test.js" />
         <option value="$PROJECT_DIR$/config/setupTests.js" />
         <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.js" />
         <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/components/Table/Table.js" />
+        <option value="$PROJECT_DIR$/components/UserInfo/UserInfo.js" />
+        <option value="$PROJECT_DIR$/components/UserList/UsersList.js" />
+        <option value="$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js" />
+        <option value="$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js" />
       </list>
     </option>
   </component>
@@ -227,12 +269,19 @@
             <path>
               <item name="swivl-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="swivl-test" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="swivl-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="swivl-test" type="462c0819:PsiDirectoryNode" />
-              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="UserInfoScreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swivl-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swivl-test" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+              <item name="UsersListScreen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +328,20 @@
       <updated>1526720776794</updated>
       <workItem from="1526720782425" duration="9595000" />
       <workItem from="1526770114346" duration="25941000" />
-      <workItem from="1526935563670" duration="6139000" />
+      <workItem from="1526935563670" duration="6707000" />
     </task>
+    <task id="LOCAL-00001" summary="Added some unit tests">
+      <created>1526941752414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526941752414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41675000" />
+    <option name="totallyTimeSpent" value="42243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -314,6 +371,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -351,7 +412,7 @@
         <state relative-caret-position="459">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#0#49#0" expanded="false" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,7 +453,7 @@
         <state relative-caret-position="102">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
-            <element signature="e#0#49#0" expanded="false" />
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,16 +570,6 @@
     <entry file="file://$PROJECT_DIR$/components/Table/tableRow.styles.js" />
     <entry file="file://$PROJECT_DIR$/components/Table/TableCell.js" />
     <entry file="file://$PROJECT_DIR$/components/Table/TableRow.js" />
-    <entry file="file://$PROJECT_DIR$/components/Table/Table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Table/table.styles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -559,22 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/UserInfo/UserInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -583,28 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -637,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.selectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -670,7 +677,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -683,11 +690,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js">
+    <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfo.actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Table/Table.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,18 +748,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersList.actions.test.js">
+    <entry file="file://$PROJECT_DIR$/components/UserInfo/UserInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="77" lean-forward="false" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/UserList/UsersList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="35">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -723,11 +774,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/screens/UserInfoScreen/UserInfoContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="-353">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/UsersListScreen/UsersListContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,14 +1,25 @@
 import React, {Component, Fragment} from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 import {getUserInfoById} from './UserInfo.selectors';
 import {fetchUserFollowers} from './UserInfo.actions';
 import UserInfo from '../../components/UserInfo/UserInfo';
 import Preloader from '../../components/Preloader/Preloader';
+import userShape from '../../shapes/user';
 
 const FOLLOWERS_PER_PAGE = 25;
 
 class UserInfoContainer extends Component {
+	static propTypes = {
+		isFetching: PropTypes.bool.isRequired,
+		info: PropTypes.shape({
+			followers: PropTypes.arrayOf(userShape)
+		}),
+		user: userShape,
+		fetchUserFollowers: PropTypes.func.isRequired
+	};
+
 	state = {
 		visibleFollowers: 0
 	};

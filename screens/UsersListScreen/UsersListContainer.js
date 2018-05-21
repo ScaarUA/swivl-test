@@ -5,13 +5,15 @@ import {connect} from 'react-redux';
 import {fetchUsers} from './UsersList.actions';
 import UsersList from '../../components/UserList/UsersList';
 import Preloader from '../../components/Preloader/Preloader';
+import userShape from '../../shapes/user';
 
 const USERS_PER_PAGE = 25;
 
 export class UsersListContainer extends Component {
 	static propTypes = {
 		isFetching: PropTypes.bool.isRequired,
-		users: PropTypes.array
+		users: PropTypes.arrayOf(userShape),
+		fetchUsers: PropTypes.func.isRequired
 	};
 
 	state = {
