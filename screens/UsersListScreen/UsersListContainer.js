@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
@@ -8,7 +8,7 @@ import Preloader from '../../components/Preloader/Preloader';
 
 const USERS_PER_PAGE = 25;
 
-class UsersListContainer extends Component {
+export class UsersListContainer extends Component {
 	static propTypes = {
 		isFetching: PropTypes.bool.isRequired,
 		users: PropTypes.array
@@ -34,16 +34,17 @@ class UsersListContainer extends Component {
 	render() {
 		const {isFetching, users} = this.props;
 
-		return [
-			!!users.length && (
-				<UsersList
-					key="user-list"
-					users={users}
-					fetchUsers={this.fetchUsers}
-				/>
-			),
-			isFetching && <Preloader key="preloader" />
-		];
+		return (
+			<Fragment>
+				{!!users.length && (
+					<UsersList
+						users={users}
+						fetchUsers={this.fetchUsers}
+					/>
+				)}
+				{isFetching && <Preloader />}
+			</Fragment>
+		);
 	}
 }
 

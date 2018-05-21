@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import {connect} from 'react-redux';
 
 import {getUserInfoById} from './UserInfo.selectors';
@@ -31,17 +31,18 @@ class UserInfoContainer extends Component {
 	render() {
 		const {isFetching, user, info} = this.props;
 
-		return [
-			info && (
-				<UserInfo
-					key="user-info"
-					user={user}
-					info={info}
-					fetchUserFollowers={this.fetchUserFollowers}
-				/>
-			),
-			isFetching && <Preloader key="preloader" />
-		];
+		return (
+			<Fragment>
+				{info && (
+					<UserInfo
+						user={user}
+						info={info}
+						fetchUserFollowers={this.fetchUserFollowers}
+					/>
+				)}
+				{isFetching && <Preloader />}
+			</Fragment>
+		);
 	}
 }
 

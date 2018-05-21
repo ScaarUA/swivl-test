@@ -1,9 +1,15 @@
 import React from 'react';
+import {shallow} from 'enzyme';
 import App from './App';
 
-import renderer from 'react-test-renderer';
+describe('App', () => {
+	let sut;
 
-it('renders without crashing', () => {
-  const rendered = renderer.create(<App />).toJSON();
-  expect(rendered).toBeTruthy();
+	beforeEach(() => {
+		sut = shallow(<App />);
+	});
+
+	it('renders without crashing', () => {
+		expect(sut.exists()).toBeTruthy();
+	});
 });

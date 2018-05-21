@@ -18,7 +18,8 @@ export const fetchUsersFailure = () => ({
 export const fetchUsers = amount => {
 	return dispatch => {
 		dispatch(fetchUsersStart());
-		fetch(`https://api.github.com/users?per_page=${amount}`)
+
+		return fetch(`https://api.github.com/users?per_page=${amount}`)
 			.then(response => response.json())
 			.then(users => dispatch(fetchUsersSuccess(users)))
 			.catch(() => dispatch(fetchUsersFailure()));
